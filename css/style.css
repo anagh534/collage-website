@@ -39,3 +39,7 @@
 .button-color{
     background-color: var(--secondary_clr) !important;
 }
+
+.custom-nav-title{
+    font-size: 1.1rem !important;
+}
