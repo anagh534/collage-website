@@ -1,0 +1,32 @@
+:root {
+    --navbar_bg: rgb(127, 155, 208);
+    --navbar_gradient: linear-gradient(90deg, rgba(127, 155, 208, 1) 0%, rgba(239, 162, 182, 1) 50%, rgba(177, 158, 196, 1) 100%);
+    --primary_clr: #464646;
+    --secondary_clr: #9d1d20;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.custom-navbar {
+    background-color: var(--navbar_bg) !important;
+    background: var(--navbar_gradient) !important;
+}
+
+.custom-dropdown{
+    min-width: fit-content !important;
+}
+
+.flash-news{
+    width: 100%;
+    background-color: var(--secondary_clr);
+}
+
+.departments{
+    background-color: var(--primary_clr);
+}
+.bg-red{
+    background-color: var(--secondary_clr);
+}
