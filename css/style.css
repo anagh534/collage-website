@@ -27,6 +27,15 @@
 .departments{
     background-color: var(--primary_clr);
 }
+
 .bg-red{
     background-color: var(--secondary_clr);
+}
+
+.trending{
+    background-color: var(--primary_clr);
+}
+
+.button-color{
+    background-color: var(--secondary_clr) !important;
 }
