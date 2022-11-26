@@ -32,6 +32,10 @@
                     </div>
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <form class="d-flex mt-3 mb-3" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
@@ -46,22 +50,17 @@
                             </li>
                             <li class="nav-item">
                                 <div class="dropdown">
-                                    <a class="btn dropdown-toggle nav-link" href="#" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="nav-link" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
                                         Login
                                     </a>
-
-                                    <ul class="dropdown-menu custom-dropdown">
-                                        <li><a class="dropdown-item" href="#">Teacher's</a></li>
-                                        <li><a class="dropdown-item" href="#">Student</a></li>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">Teacher's Login</a></li>
+                                        <li><a class="dropdown-item" href="#">Student Login</a></li>
                                     </ul>
                                 </div>
                             </li>
                         </ul>
-                        <form class="d-flex mt-3" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
                     </div>
                 </div>
             </div>
@@ -99,7 +98,8 @@
                     </div>
                     <div class="col-lg-8">
                         <h4 class="mt-4 text-white">Welcome to Sa-adiya arts and science collage!</h4>
-                        <p class="mt-3 fw-normal text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero
+                        <p class="mt-3 fw-normal text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Libero
                             voluptatum quae cumque ducimus
                             porro? Consectetur ea itaque, alias laborum, iste reiciendis repellat facere optio neque
                             ipsa
