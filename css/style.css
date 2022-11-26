@@ -43,3 +43,7 @@
 .custom-nav-title{
     font-size: 1.1rem !important;
 }
+
+.upcomming{
+    background-color: var(--primary_clr);
+}
