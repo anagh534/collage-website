@@ -70,18 +70,20 @@
         <img src="img/bg.jpg" alt="background image" class="img-fluid">
     </section>
     <section>
-        <div class="row">
-            <div class="flash-news col-lg-2 col-md-2 col-sm-4 col-4">
-                <h3 class="text-center fs-6 text-uppercase text-light mt-3">latest news</h3>
-            </div>
-            <div class="flash-news-render col-lg-10 col-md-10 col-sm-8 col-8">
-                <marquee>
-                    <p class="text-dark mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid error
-                        reprehenderit
-                        culpa aut beatae atque ratione voluptatem quisquam, perspiciatis incidunt explicabo dolorem ex
-                        numquam
-                        vitae sapiente quibusdam. Necessitatibus, aspernatur officiis.</p>
-                </marquee>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="flash-news col-lg-2 col-md-2 col-sm-4 col-4">
+                    <h3 class="text-center fs-6 text-uppercase text-light mt-3">latest news</h3>
+                </div>
+                <div class="flash-news-render col-lg-10 col-md-10 col-sm-8 col-8">
+                    <marquee class="mt-3">
+                        <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid error
+                            reprehenderit
+                            culpa aut beatae atque ratione voluptatem quisquam, perspiciatis incidunt explicabo dolorem
+                            ex
+                            numquam.</p>
+                    </marquee>
+                </div>
             </div>
         </div>
     </section>
@@ -90,13 +92,13 @@
         <div class="welcome">
             <div class="container">
                 <div class="row pt-5 pb-3">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-4">
                         <div class="image p-4">
                             <img src="img/principal.jpg" class="img-fluid" alt="principal image">
                         </div>
                         <p class="text-center fw-normal fs-5 text-white">Name Of Principal</p>
                     </div>
-                    <div class="col-lg-8">
+                    <div class="col-lg-8 col-md-8">
                         <h4 class="mt-4 text-white">Welcome to Sa-adiya arts and science collage!</h4>
                         <p class="mt-3 fw-normal text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             Libero
@@ -123,37 +125,39 @@
         <div class="departments">
             <div class="container">
                 <h3 class="text-center pt-3 pb-3 text-uppercase">Departments</h3>
-                <div class="slider pb-4">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
+                <div class="dep-slider">
+                    <div class="slider pb-4">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/department-1.png" class="d-block img-fluid w-100 " alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/department-2.png" class="d-block img-fluid w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/department-3.png" class="d-block img-fluid w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="img/department-1.png" class="d-block img-fluid w-100 " alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/department-2.png" class="d-block img-fluid w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/department-3.png" class="d-block img-fluid w-100" alt="...">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
                     </div>
                 </div>
                 <div class="row text-center pb-4">
@@ -430,7 +434,8 @@
                 <div class="socail-media text-center pt-2 pb-3">
                     <a href="#"><img src="img/icons8-facebook-50.png" style="width: 25px;height: 25px;" alt=""></a>
                     <a href="#"><img src="img/icons8-instagram-50.png" style="width: 25px;height: 25px;" alt=""></a>
-                    <a href="#"><img src="img/icons8-twitter-circled-50.png" style="width: 25px;height: 25px;" alt=""></a>
+                    <a href="#"><img src="img/icons8-twitter-circled-50.png" style="width: 25px;height: 25px;"
+                            alt=""></a>
                 </div>
             </div>
         </div>
