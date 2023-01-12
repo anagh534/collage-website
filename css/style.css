@@ -87,16 +87,19 @@
 .carousel-caption h4 {
     margin-bottom: 15px;
     margin-top: 25px;
-    color: #fff !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 .carousel-caption p {
     margin: auto;
     width: 70%;
     margin-bottom: 10px;
-    color: #fff !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 .carousel-indicator-custom {
     bottom: -50px !important;
+}
+.slider-area{
+    background-color: #fff !important;
 }
